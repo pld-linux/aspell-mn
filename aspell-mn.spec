@@ -1,5 +1,5 @@
 Summary:	Mongolian dictionary for aspell
-Summary(pl.UTF-8):   Słownik mongolski dla aspella
+Summary(pl.UTF-8):	Słownik mongolski dla aspella
 Name:		aspell-mn
 Version:	0.01
 %define	subv	0
