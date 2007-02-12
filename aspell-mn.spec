@@ -1,5 +1,5 @@
 Summary:	Mongolian dictionary for aspell
-Summary(pl):	S≥ownik mongolski dla aspella
+Summary(pl.UTF-8):   S≈Çownik mongolski dla aspella
 Name:		aspell-mn
 Version:	0.01
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Mongolian dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik mongolski (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik mongolski (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell6-mn-%{version}-%{subv}
