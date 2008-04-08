@@ -7,7 +7,7 @@ Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/mn/aspell6-mn-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/mn/aspell6-mn-%{version}-%{subv}.tar.bz2
 # Source0-md5:	20aa91b99ce5e7a2b4168711398f5dfe
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
