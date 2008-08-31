@@ -1,14 +1,14 @@
 Summary:	Mongolian dictionary for aspell
 Summary(pl.UTF-8):	Słownik mongolski dla aspella
 Name:		aspell-mn
-Version:	0.01
-%define	subv	0
+Version:	0.06
+%define	subv	2
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/mn/aspell6-mn-%{version}-%{subv}.tar.bz2
-# Source0-md5:	20aa91b99ce5e7a2b4168711398f5dfe
+# Source0-md5:	fd1ed8b4e57c858c62c4f74a687bba90
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
@@ -40,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Copyright README
+%doc Copyright README doc/Changes
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
