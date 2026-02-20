@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Słownik mongolski dla aspella
 Name:		aspell-mn
 Version:	0.06
 %define	subv	2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
